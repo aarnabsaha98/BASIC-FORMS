@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+ 
+
+    <script defer src="form.js"> </script>
+    <title> Registration From </title>
+</head>
+
+<body id = 'body_element'>
+
+    <div id="container">
+        <div id="error"></div>
+        <div id="header">
+            <h3> Create Account </h3>
+        </div>
+        <form action= "new_window.html" id="form" method="GET">
+            
+            <div class="_row">
+                <label for="name"> Username</label>
+                <input type="text" name="name" placeholder="Username" id="name" >
+
+            </div>
+            <div class="_row">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="email" id="email">
+
+            </div>
+            <div class="_row">
+                <label for="password">password</label> 
+                <input type="password" name="password" placeholder="password" id="password">
+
+            </div>
+            <div class="_row">
+                <label for="password"> Confirm password</label> 
+                <input type="password" name="password" placeholder="password" id="confirmpassword">
+
+            </div>
+
+            <div class="_row">
+                <label for="gender">Gender:</label>
+                <!-- </div>
+        <div> -->
+                <label for="male">male</label>
+                <input type="checkbox" name="gender" id="male" value="male">
+                <label for="female">female</label>
+                <input type="checkbox" name="gender" id="female" value="female">
+
+            </div>
+
+            <button type="submit" id ="submit">Submit</button>
+            <button type="reset" id ="reset">Reset</button>
+
+            
+    </div>
+    </form>
+</body>
+
+</html>
